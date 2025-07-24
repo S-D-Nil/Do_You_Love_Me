@@ -1,4 +1,4 @@
-<div align="center"><h1> Do You Love Me?<br><sup>mini romantic web app</sup><br><sub>Made with ❤️</sub><br><sup>By</sup><br> S.D.Nil</h1>
+<div align="center"><h1> Do You Love Me?<br><sup>Romantic web app</sup><br><sub>Made with ❤️</sub><br><sup>By</sup><br> S.D.Nil</h1>
 </div>
 
 ---
@@ -19,7 +19,7 @@ A fun and romantic interaction, made for that special someone 💘
 
 - Cute Yes/No question with animated response
 - “No” button playfully avoids being clicked
-- Heart-loader animation on “Yes” click
+- Heart-loader animation and cute gif on “Yes” click
 - Romantic video reveal with soft music
 - Sweet minimal styling & gentle interactivity
 - Works smoothly across devices
@@ -54,13 +54,13 @@ Made to express emotions in an unexpected, interactive way.
 ## 📸 Photos
 
 ### Main Question View
-![Question Page](https://i.postimg.cc/0NNgf41n/Project11.jpg)
+![Question Page](https://i.postimg.cc/zf7TX97w/Project14.jpg)
 
 ### No Button Escaping
-![No Button](https://i.postimg.cc/FHnWbYvh/Project12.jpg)
+![No Button](https://i.postimg.cc/fRj9B6G4/Project15.jpg)
 
-### Heart Loader & Result Page
-![Result View](https://i.postimg.cc/YqVV9CHD/Project13.jpg)
+### Heart Loader 
+![Result loading View](https://i.postimg.cc/2SmGwpHv/Project16.jpg)
 
 ---
 
