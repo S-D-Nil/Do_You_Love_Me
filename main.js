@@ -4,6 +4,7 @@ const gifResult = document.querySelector(".gif-result");
 const heartLoader = document.querySelector(".cssload-main");
 const yesBtn = document.querySelector(".js-yes-btn");
 const noBtn = document.querySelector(".js-no-btn");
+const supportsHover = window.matchMedia("(hover: hover)").matches;
 
 // /change the postion of no button
 noBtn.addEventListener("click", () => {
@@ -26,3 +27,6 @@ yesBtn.addEventListener("click", () => {
     gifResult.play();
   }, 3000);
 });
+if (supportsHover) {
+  noBtn.addEventListener("mouseenter", moveButton);
+    }
