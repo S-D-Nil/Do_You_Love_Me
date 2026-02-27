@@ -14,6 +14,16 @@ noBtn.addEventListener("click", () => {
   noBtn.style.left = `${newX}px`;
   noBtn.style.top = `${newY}px`;
 });
+// PC devices → move automatically on hover
+if (supportsHover) {
+  noBtn.addEventListener("mouseenter", () => {
+    const newX = Math.floor(Math.random() * questionContainer.offsetWidth);
+    const newY = Math.floor(Math.random() * questionContainer.offsetHeight);
+
+    noBtn.style.left = `${newX}px`;
+    noBtn.style.top = `${newY}px`;
+  });
+}
 
 // yes button functionality
 
@@ -27,6 +37,3 @@ yesBtn.addEventListener("click", () => {
     gifResult.play();
   }, 3000);
 });
-if (supportsHover) {
-  noBtn.addEventListener("mouseenter", moveButton);
-    }
