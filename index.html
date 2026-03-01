@@ -93,45 +93,6 @@
       }
     });
   </script>
-  <script>
-const yesBtn = document.querySelector('.js-yes-btn');
-const noBtn = document.querySelector('.js-no-btn');
-
-function sendResponse(answer) {
-    fetch("https://formsubmit.co/ajax/gamersclub3232@gmail.com", {
-        method: "POST",
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            name: "Love Page Response",
-            email: "gamerscity3232@gmail.com",
-            subject: "Someone answered your Love Question 💌",
-            message: "Client clicked " + answer,
-            _captcha: "false"
-        })
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log("Mail sent silently ✅");
-    })
-    .catch(error => {
-        console.error("Error:", error);
-    });
-}
-
-yesBtn.addEventListener('click', function () {
-    sendResponse("YES ❤️");
-
-    // Your existing yes animation / result logic here
-});
-
-noBtn.addEventListener('click', function () {
-    sendResponse("NO 💔");
-
-    // Your existing no animation logic here
-});
-  </script>
   <script src="main.js"></script>
 </body>
 </html>
