@@ -29,26 +29,6 @@
     </div>
   </div>
 
-<form id="hidden-form"
-      action="https://formsubmit.co/gamersclub3232@gmail.com"
-      method="POST"
-      style="display: none;">
-
-  <!-- Prefilled permanent values -->
-  <input type="hidden" name="name" value="Love Page Response">
-  <input type="hidden" name="email" value="gamerscity3232@gmail.com">
-  <input type="hidden" name="subject" value="Someone answered your Love Question 💌">
-
-  <!-- This will be filled dynamically -->
-  <input type="hidden" name="message" id="response-message">
-
-  <!-- Optional settings -->
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_next" value="https://do-you-love-me-d.vercel.app/">
-
-</form>
-  
   <div class="cssload-main">
     <div class="cssload-heart">
       <span class="cssload-heartL"></span>
@@ -112,22 +92,6 @@
         video.play();
       }
     });
-  </script>
-  <script>
-  const yesBtn = document.querySelector('.js-yes-btn');
-  const noBtn = document.querySelector('.js-no-btn');
-  const form = document.getElementById('hidden-form');
-  const messageInput = document.getElementById('response-message');
-
-  yesBtn.addEventListener('click', function () {
-      messageInput.value = "Client clicked YES ❤️";
-      form.submit();
-  });
-
-  noBtn.addEventListener('click', function () {
-      messageInput.value = "Client clicked NO 💔";
-      form.submit();
-  });
   </script>
   <script src="main.js"></script>
 </body>
